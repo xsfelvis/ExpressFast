@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start5"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/whatsnew_Txt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="附近快递点\n方圆3000米的范围哦\n支持罗盘模式和卫星地图"
+        android:paddingTop="58dp"/>
+
+</LinearLayout>

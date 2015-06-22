@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!--
+         <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    -->
+    <item
+        android:id="@+id/id_map_commom"
+        android:showAsAction="never"
+        android:title="普通地图"/>
+    <!--
+         <item
+        android:id="@+id/id_map_Expresssite"
+        android:showAsAction="never"
+        android:title="附近快递"/>
+    -->
+    <!--
+         <item
+        android:id="@+id/id_map_tracffic"
+        android:showAsAction="never"
+        android:title="实时交通(close)"/>
+    -->
+    <!--
+         <item
+        android:id="@+id/id_map_location"
+        android:showAsAction="never"
+        android:title="我的位置"/>
+    -->
+    <item
+        android:id="@+id/id_map_mode_common"
+        android:showAsAction="never"
+        android:title="普通模式"/>
+    <item
+        android:id="@+id/id_map_site"
+        android:showAsAction="never"
+        android:title="卫星地图"/>
+    <item
+        android:id="@+id/id_map_mode_compass"
+        android:showAsAction="never"
+        android:title="罗盘模式"/>
+    <!--
+         <item
+        android:id="@+id/id_add_overlay"
+        android:showAsAction="never"
+        android:title="添加覆盖物"/>
+    -->
+
+</menu>

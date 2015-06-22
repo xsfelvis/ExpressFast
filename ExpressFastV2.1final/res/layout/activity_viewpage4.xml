@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start4"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/whatsnew_Txt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="酷炫的侧滑\n寄快递可以查阅附近快递点哦"
+        android:paddingTop="58dp"/>
+
+</LinearLayout>

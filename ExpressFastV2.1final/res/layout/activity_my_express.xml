@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listbgwhite" >
+
+    <!-- android:background="@drawable/about_bg" -->
+
+    <RelativeLayout
+        android:id="@+id/layout_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/holo_blue_light" >
+         <TextView
+            android:id="@+id/history_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/menu_historical"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+          <TextView
+            android:id="@+id/count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/icon_count"
+            android:gravity="center"
+            android:padding="4dp"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_my_express"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@id/layout_title_bar"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="5dp"
+        android:footerDividersEnabled="false"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:listSelector="@android:color/transparent" />
+
+</RelativeLayout>

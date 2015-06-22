@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/start1"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/whatsnew_Txt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="掌上快递\n千里之外触手可及" 
+        android:paddingTop="58dp"/>
+
+</LinearLayout>

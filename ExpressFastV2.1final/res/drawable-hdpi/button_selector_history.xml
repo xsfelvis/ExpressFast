@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 按下时候的图片 -->
+    <item android:state_pressed="true" android:drawable="@drawable/search_bar_edit_pressed" />
+    <!-- 正常时候的图片 -->
+    <item android:state_pressed="false" android:drawable="@drawable/search_bar_edit_normal" />
+</selector>

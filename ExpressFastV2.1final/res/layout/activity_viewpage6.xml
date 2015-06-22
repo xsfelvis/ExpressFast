@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whatsnew_page01"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/whatsnew_Txt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="触手可及\n更多发现更多期待"
+        android:paddingTop="85dp" />
+    <Button 
+        android:id="@+id/start_btn"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="进入掌上快递"
+        style="@style/whatsnew_Txt"
+        android:layout_marginTop="105dp"
+        android:background="@drawable/whatsnew_start_btn"
+        android:onClick="startbutton"/>
+
+</LinearLayout>

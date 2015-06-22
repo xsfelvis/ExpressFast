@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <com.example.leftslide.SlidingMenuView
+        android:id="@+id/main_menu_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+       		<LinearLayout
+            android:id="@+id/main_left_menu"
+            android:layout_width="180dip"
+            android:layout_height="fill_parent" 
+            android:orientation="vertical" 
+            android:padding="15dip" >
+			
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_launcher"
+                android:background="@drawable/bt_bkg_celanactivity"
+                android:paddingLeft="15dip"
+                android:paddingRight="15dip"/>
+			
+			<TextView
+			    android:id="@+id/tv_username"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="center_horizontal"
+			    android:layout_marginTop="20dp">
+			    
+			</TextView>
+			
+  			<ListView
+       			android:id="@+id/list1"
+       			android:layout_width="fill_parent"
+       			android:layout_height="wrap_content"
+        		android:divider="#FFD39B"
+       			android:dividerHeight="2dp"
+       			android:headerDividersEnabled="true"
+       			android:footerDividersEnabled="true"
+       			android:paddingTop="15dp">       
+   			 </ListView>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/main_body"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+          
+        </FrameLayout>
+    </com.example.leftslide.SlidingMenuView>
+
+</RelativeLayout>

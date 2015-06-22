@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:baiduadsdk="http://schemas.android.com/apk/res/com.weimeijing.feigeshudi"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/tableTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/holo_blue_light" >
+
+        <TextView
+            android:id="@+id/tv_main_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/search_result"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+        <!-- android:background="@drawable/dialog_header_bg" -->
+
+        <Button
+            android:id="@+id/btn_info_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button_selector_search"
+            android:text="返回"
+            android:textColor="#FFfcfcfc" />
+
+        <Button
+            android:id="@+id/btn_info_save_or_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/button_selector_search"
+            android:text="保存"
+            android:textColor="#FFfcfcfc" />
+    </RelativeLayout>
+    <!-- 测试 -->
+
+    <RelativeLayout
+        android:id="@+id/indicate"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/tableTitle" >
+
+        <RelativeLayout
+            android:id="@+id/colorLine"
+            android:layout_width="3dp"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/dot_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/icon_count"
+            android:gravity="center"
+            android:text="@string/qi"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/dot_full"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/icon_success"
+            android:gravity="center"
+            android:textSize="8sp"
+            android:visibility="gone" />
+
+        <!-- android:visibility="gone" -->
+    </RelativeLayout>
+
+    <!-- listview用来存储快递实时信息 -->
+
+    <ListView
+        android:id="@+id/lv_express_info_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tableTitle"
+        android:layout_marginLeft="25dp"
+        android:cacheColorHint="#00000000"
+        android:divider="#00000000"
+        android:dividerHeight="10dp"
+        android:fadingEdge="none"
+        android:footerDividersEnabled="false"
+        android:gravity="center_horizontal"
+        android:listSelector="@android:color/transparent"
+        android:paddingRight="5dp" />
+
+</RelativeLayout>

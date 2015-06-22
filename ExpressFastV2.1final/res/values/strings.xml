@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">掌上快递</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="banner_text"><b></b></string>
+    <string name="choose_express">请选择快递</string>
+    <string name="search">查询</string>
+    <string name="input_number">请输入运单号码</string>
+    <string name="search_result">跟踪信息</string>
+    <string name="qi">起</string>
+    <string name="my_express">快递收藏</string>
+    <string name="netstate">网络状态</string>
+    <string name="setnetwork">当前网络不可用，是否设置网络？</string>
+    <string name="ok">设置</string>
+    <string name="cancel">取消</string>
+    <string name="ems_company">所属公司：</string>
+    <string name="company_address">详细地址：</string>
+    <string name="company_phone">电话号码：</string>
+    <string name="ems_more">备注：</string>
+    <string name="about_introduce_title">项目介绍\n</string>
+    <string name="about_developers_title"></string>
+    <string name="about_developers">愤怒的小菜鸟出品</string>
+    <string name="about_thanks_title"></string>
+    <string name="about_thanks"></string>
+    <string name="about_links_title"></string>
+    <string name="menu_historical">收藏记录</string>
+    <string name="about">关于</string>
+
+    <!-- 关于部分 -->
+    <string name="about_app_1">☆  本App为“中兴捧月杯”全国研究生移动终端应用设计创新大赛,移动生活类软件组参赛作品</string>
+    <!-- <string name="about_app_2">☆ 本软件主要推荐给医生和患者，普通人员也可以作为健康助手使用。</string> -->
+    <string name="about_app_3">☆ 地图模块集成了附近的快递点方便您邮寄快递，不过使用前要记得联网哦</string>
+    <string name="about_app_4">☆软件旨在为用户提供方便快捷的快递查询和邮寄服务,并且可以收藏当前快递,实时追踪快递进度</string>
+
+    <!-- <string name="about_app_6">☆用户注册登陆(可注册账号和修改信息，多个功能需登陆后才能使用)。</string> -->
+    <string name="about_app_7">☆摇一摇,会有意外惊喜哦</string>
+    <string name="about_app_8">☆ 地图模块集成了附近的快递点方便您邮寄快递，不过使用前要记得联网哦</string>
+    <string name="about_author_2">☆ 作者：许尚飞,唐鹏\n(均来自电子科技大学通信抗干扰国家级重点实验室)</string>
+    <!-- 摇一摇部分 -->
+    <string name="shake1">☆  遇到新来的快递员一定要向对方索要名片和联系方式，并且当场拨打确认无误。如果对方没有名片也要让对方写下并签上自己的名字，沟通好方便取件的时间。</string>
+    <string name="shake2">☆ 每项快递都认真填写寄件日期，万一需要投诉快递公司，没有寄件日期快递公司是不会认账的。</string>
+    <string name="shake3">☆ 对于快递的费用，请取件员写到快递单上并签名，这是为了防止快递员自己抬高运费想从中间牟利。</string>
+    <string name="shake4">☆ 先验货再签收，这也是老生常谈的问题，大家肯定都知道，那么如果因为快递破损麻烦的还是快递员，所以可能有些快递员不愿意让客户先验货再签收。</string>
+    <string name="shake5">☆ 有些提取快递时可能要提供自己的身份证等证件，给快递员看下就好，千万不要随意透露自己的个人信息。</string>
+    <string name="shake6">☆ 不要害怕与快递员交涉拿什么这规定那规定来压你，如果发现物品破损直接拒收，若需要跟店家商量的情况下签收时注明物品存在了什么问题。</string>
+    <string name="shake7">☆ 打开包裹之前一定要先检查包裹的外观看看是否有过打开的痕迹，查看封装胶带有没有重新粘贴的痕迹。</string>
+    <string name="shake8">☆ 通知快递取件时一定要拨打快递公司的取件电话，最好不要直接联系快递员。因为快递公司的取件员的更换频率较快，他可能已经不在原来的快递公司，当你打电话要他取件时素质高的会说已经辞职或者换了快递公司，素质不高的照样去取件，用自己现在的快递公司寄出，如果商品在快递公司丢了也是没有办法，因为你没有打快递公司的取件电话，后果自负。</string>
+    <string name="shake9">☆ EMS：EMS属于国营（邮局），比较官方比较正规的快递企业，当然网点也是最全的，有邮局就有EMS，只 是价格比较贵。EMS上门取件需要5元的取件费。再加上包装单子之类的，发一个快递需要28元左右 （不超重的情况），所以价格还是蛮高的。</string>
+    <string name="shake10">☆ 顺丰快递：顺风和EMS差不多，服务好，价格没得说，20元，不议价，就算签了协议也就是给点精神上的优惠， 什么有活动通知啦之类的。不过他们的装备很专业，每人手里一个移动pos厉害厉害，而且周日也不 休息。如果您是手机卖家或者贵重物品的卖家，可以选择，很放心；缺点就是不给发液体，指甲油都不行业务员很讲原则。</string>
+    <string name="shake11">☆ 宅急送快递：宅急送，大货物价格最好，省内小件物品就不要发了，网点有待增多，服务好，速度没问题，总体评价还不错。 </string>
+    <string name="shake12">☆ 天天快递:天天快递，空运网点比较健全，价格适中，速度适中，服务不错，新开的汽运价格更合适（速度当然有点打折扣），业务员态度还挺诚恳，比较而言满意，如果情况允许的话建议试用下天天快递！还有一个需要说的是大件货品的运输 </string>
+    <string name="shake13">☆ 申通快递：现在用的快 递员很会办事，北京郊区也给我5元发货了。而且现在还给我带免费的纸箱子，又帮我省了一笔费用 。不过他们的业务员确实素质不整齐，所以有时候客户指定不用他们公司的快递，哈哈。另外他们 的查询系统也还不错，很具体，能看到货到了什么地方，在哪里中转。  </string>
+
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/ll_shake"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical" >
+
+            <!-- android:background="@drawable/bkshelf" -->
+
+            <ImageView
+                android:id="@+id/iv_collect_icon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:background="#00ffffff"
+                android:src="@drawable/shake_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_horizontal"
+                android:text="摇一摇,涨姿势"
+                android:textColor="#9BCD9B"
+                android:textSize="23sp" />
+        </RelativeLayout>
+
+        <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:background="#00000000"
+            android:text="摇一摇有惊喜哦！"
+            android:textColor="#9BCD9B"
+            android:textSize="25sp" >
+        </TextView> -->
+
+        <!--
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="#00000000"
+            android:text="o(≧v≦)o~~"
+            android:textColor="#9BCD9B"
+            android:textSize="25sp" >
+        </TextView>
+        -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_shake"
+        
+        android:layout_centerHorizontal="true"
+       android:background="@drawable/tips"
+        android:orientation="vertical" >
+         <!-- android:layout_marginTop="40dp" -->
+
+        <!-- <TextView
+            android:id="@+id/tv_shake1"
+           
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="#00000000"
+            android:gravity="center_horizontal"
+            android:text="(*^__^*) 小贴士:"
+            android:textColor="#9BCD9B"
+            android:textSize="25sp"
+            android:visibility="gone" >
+        </TextView> -->
+
+        <!-- <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp" >
+        </ImageView> -->
+
+        <TextView
+            android:id="@+id/tv_shake2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:scrollHorizontally="true"
+            android:layout_marginTop="100dp"
+            android:padding="20dp"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:visibility="gone" >
+        </TextView>
+       <!--   android:layout_marginTop="30dp" -->
+    </LinearLayout>
+
+</RelativeLayout>
