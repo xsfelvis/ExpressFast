@@ -13,6 +13,9 @@
 【5】摇一摇可以显示一些快递小常识
 
 【6】联系客户可以在出现问题时及时跟快递公司的客服沟通
+
+详细介绍可以参考[我的csdn博客](http://blog.csdn.net/xsf50717/article/details/47192491) 
+
 部分截图：<br>
 ![](http://img.blog.csdn.net/20150801224913741?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)  
 ![](http://img.blog.csdn.net/20150801225043103?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQv/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)  
